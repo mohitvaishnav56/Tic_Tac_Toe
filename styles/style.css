@@ -1,11 +1,11 @@
 @font-face {
     font-family: "pantonRust";
-    src: url(./fonts/PantonRustHeavy-GrSh.otf);
+    src: url(../assets/fonts/PantonRustHeavy-GrSh.otf);
 }
 
 @font-face {
     font-family: "genz";
-    src: url(./fonts/thegenz.ttf);
+    src: url(../assets/fonts/thegenz.ttf);
 }
 
 *{
@@ -55,7 +55,7 @@ header{
     grid-template-rows: repeat(3, 1fr);
     position: relative;
     gap: 8px;
-    cursor: url(./image.png) 12 12, auto;
+    cursor: url(../assets/images/image.png) 12 12, auto;
 }
 
 .container div{
@@ -64,7 +64,7 @@ header{
     align-items: center;
     justify-content: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    cursor: url(./image.png) 12 12, auto;
+    cursor: url(../assets/images/image.png) 12 12, auto;
     font-family: "genz";
     font-size: 3rem;
     color: #333;
